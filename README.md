@@ -1,7 +1,7 @@
 # COVID-19-Deep-Learning-CNN-Model
 **Introduction**
 
-COVID-19 (coronavirus disease 2019) infection which began in De- cember 2019 in Wuhan, China has widely spread all over the world. 
+COVID-19 (coronavirus disease 2019) infection which began in December 2019 in Wuhan, China has widely spread all over the world. 
 COVID-19 causes severe respiratory symptoms and is associated with relatively high ICU admission and mortality. 
 Along with the continuously increasing number of cases, test kits were produced by aiming diagnosis. But according to the Hematology Fellow Atilla Uslu from Ankara University 
 School of Medicine, “They started to have cases where the coronavirus test was negative twice, but lung tomography seemed compatible with coronavirus. 
@@ -9,10 +9,7 @@ How the samples are taken from the mouth and nose affects the results. When not 
 Also, it has been reported that the sensitivity of the test kits might not be high enough for the early detection and treat- ment of presumptive patients [1]. 
 Therefore, the CT scan images of the lungs play a significant role in the early detection of the COVID- 19.
 
-![alt text](structure.png)
-
 **Purpose of the study**<br>
-
 
 This study aims to design and develop a deep learning model for early detection of the COVID-19 by using chest x-ray images.
 
@@ -21,7 +18,7 @@ This study aims to design and develop a deep learning model for early detection 
 **Data Collection**<br>
 
 
-The data which will be used to train the model is open - source dataset called COVID-19 image data collection on the Github platform. 
+The data which was used to train the model is a open - source dataset calledcovid-chestxray-dataset on the Github platform. 
 According to this dataset, “The 2019 novel coronavirus (COVID-19) presents several unique features.
 While the diagnosis is conﬁrmed using polymerasechainreaction(PCR),infectedpatientswithpneumoniamay present on chest X-ray and computed 
 tomography (CT) images with a pattern that is only moderately characteristic for the human eye Ng, 2020” ( Cohen J. Moorrison P. Dao L., 2020). 
