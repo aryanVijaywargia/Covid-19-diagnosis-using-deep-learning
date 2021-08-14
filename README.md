@@ -34,5 +34,6 @@ Indeed, given limited number Rrt-PCR kits in some centers and the possibility of
 the national Health Comission of the People’s Rebuplic of China has encouraged diagnosis based on clinical and chest CT ﬁndings alone” (Bernheim, MD A. 2020).
 
 **Future Work**<br>
+
 As a future work, the number of data which is used to train the CNN model can be increased and the general structure of convolutional neural 
 network can be restructured so that it will be able to analyze the images in more detail.
