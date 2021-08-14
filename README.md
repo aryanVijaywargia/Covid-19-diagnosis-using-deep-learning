@@ -17,24 +17,17 @@ This study aims to design and develop a deep learning model for early detection 
 
 **Data Collection**<br>
 
-
-The data which was used to train the model is a open - source dataset calledcovid-chestxray-dataset on the Github platform. 
-According to this dataset, “The 2019 novel coronavirus (COVID-19) presents several unique features.
+The data which was used to train the model was taken from Kaggle which was an enhanced version to an open - source dataset called covid-chestxray-dataset on the Github platform. According to this dataset, “The 2019 novel coronavirus (COVID-19) presents several unique features.
 While the diagnosis is conﬁrmed using polymerasechainreaction(PCR),infectedpatientswithpneumoniamay present on chest X-ray and computed 
 tomography (CT) images with a pattern that is only moderately characteristic for the human eye Ng, 2020” ( Cohen J. Moorrison P. Dao L., 2020). 
-This study is limited to 130 patients’ data for training the artiﬁcial intelligence model. 
 
 ![alt text](covid19.png)
 
 **Conclusions**<br>
 
-
-The ﬁnal accuracy level of the deep learning model is recorded as 0.98 and the loss is recorded as 0.04.
-We can also observe the accuracy-loss evolution values in the Figure 1.2. The deep learning model answers nearly the 0.98 of the 
-chest x-ray images of the patients correctly and, distinguishes between the infected and not infected lungs which is the ﬁrst target region of human body.
+After training and testing various different pretrained models the ﬁnal f1 level of the deep learning model was recorded as 0.77.
 
 **Importance**<br>
-
 
 According to the Bernheim (2020), “Chest CT is a vital component in the diagnostic algorithm for patients with suspected of infection. 
 Indeed, given limited number Rrt-PCR kits in some centers and the possibility of false negative Rrt-PCR results,
@@ -42,4 +35,4 @@ the national Health Comission of the People’s Rebuplic of China has encouraged
 
 **Future Work**<br>
 As a future work, the number of data which is used to train the CNN model can be increased and the general structure of convolutional neural 
-network can be restructures so that it will be able to analyze images in more detail.
+network can be restructured so that it will be able to analyze the images in more detail.
